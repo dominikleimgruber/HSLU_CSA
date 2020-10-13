@@ -3,7 +3,7 @@
 namespace SW02_Events
 {
     
-    public delegate void MyDelegate(object sender, MyEventArgs e);
+    //public delegate void MyDelegate(object sender, MyEventArgs e);
 
     class Program
     {

@@ -1,15 +1,14 @@
+using System;
+
 namespace SW02_Events
 {
     public class EventProducer
     {
-        public event MyDelegate MyEvent;
+        public event EventHandler<MyEventArgs> MyEvent;
 
         public void OnMyEvent(string data)
         {
-            if (MyEvent != null)
-            {
-                MyEvent(this, new MyEventArgs(data));
-            }
+            MyEvent?.Invoke(this, new MyEventArgs(data));
         }
 
     }

@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SW02-Events", "SW02-Events\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SW01-Parameters", "SW01-Parameters\SW01-Parameters.csproj", "{C674AEB0-20FE-456A-9B66-2CAB7F94D7C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaspberryPiTemplate", "RaspberryPiTemplate\RaspberryPiTemplate.csproj", "{334C1002-7FF0-4075-B0EE-0EDBA37DCCF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SW04-Explorer700", "SW04-Explorer700\SW04-Explorer700.csproj", "{6BC46FBF-9CDE-4D05-A479-5353A3C64683}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,14 @@ Global
 		{C674AEB0-20FE-456A-9B66-2CAB7F94D7C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C674AEB0-20FE-456A-9B66-2CAB7F94D7C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C674AEB0-20FE-456A-9B66-2CAB7F94D7C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{334C1002-7FF0-4075-B0EE-0EDBA37DCCF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334C1002-7FF0-4075-B0EE-0EDBA37DCCF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334C1002-7FF0-4075-B0EE-0EDBA37DCCF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334C1002-7FF0-4075-B0EE-0EDBA37DCCF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BC46FBF-9CDE-4D05-A479-5353A3C64683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC46FBF-9CDE-4D05-A479-5353A3C64683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC46FBF-9CDE-4D05-A479-5353A3C64683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC46FBF-9CDE-4D05-A479-5353A3C64683}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
